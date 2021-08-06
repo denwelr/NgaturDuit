@@ -178,5 +178,16 @@
     }
 }
 
+@media screen and (max-width: $containerWidth) {
+    .card {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .hero {
+        background: linear-gradient(180deg, rgba(225, 250, 255, 0) 0%, #E1FAFF 132.9%);
+    }
+}
 
 
