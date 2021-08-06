@@ -253,6 +253,14 @@ body {
   opacity: .4;
 }
 
+.title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 body {
   color: #161616;
   font-size: 16px;
@@ -276,7 +284,7 @@ button {
 }
 
 ._container {
-  max-width: "1135px";
+  max-width: 1135px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   margin: 0 auto;
@@ -528,12 +536,7 @@ ul {
   padding-bottom: 72px;
 }
 
-.advantages__tilte {
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 1.4;
-  text-align: center;
-  text-transform: capitalize;
+.advantages__title {
   margin-bottom: 80px;
 }
 
@@ -688,11 +691,6 @@ ul {
 }
 
 .reviews__title {
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 1.4;
-  text-align: center;
-  text-transform: capitalize;
   margin-bottom: 60px;
 }
 
@@ -797,11 +795,6 @@ ul {
 }
 
 .answers__title {
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 1.4;
-  text-align: center;
-  text-transform: capitalize;
   margin-bottom: 80px;
 }
 
@@ -1008,6 +1001,12 @@ ul {
 }
 
 /*=====  End of footer  ======*/
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
 /*=============================================
 =            hero            =
 =============================================*/
@@ -1197,19 +1196,15 @@ ul {
 }
 
 /* Slick Slider */
-.reviews__slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .reviews__arrow {
   cursor: pointer;
   margin: 0 50px;
 }
 
 .reviews__slider {
-  position: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

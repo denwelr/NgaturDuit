@@ -1,9 +1,9 @@
 
 @import "fonts";
-@import "../vendors/Slick/slick";
+@import "../../vendors/Slick/slick";
 
 $mainColor: #03C2FF;
-$containerWidth: 1135;
+$containerWidth: 1135px;
 
 * {
     box-sizing: border-box;
@@ -24,6 +24,15 @@ body {
 }
 .star2 {
     opacity: .4;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.4;
+
+    text-align: center;
+    text-transform: capitalize;
 }
 
 body {
@@ -53,7 +62,7 @@ button {
 }
 
 ._container {
-    max-width: $containerWidth + 'px';
+    max-width: $containerWidth;
     box-sizing: content-box;
 
     margin: 0 auto;
@@ -288,14 +297,7 @@ ul {
     padding-top: 90px;
     padding-bottom: 72px;
 
-    &__tilte {
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 1.4;
-
-        text-align: center;
-        text-transform: capitalize;
-
+    &__title {
         margin-bottom: 80px;
     }
 
@@ -444,13 +446,6 @@ ul {
     background: linear-gradient(180deg, #E1FAFF 0%, rgba(225, 250, 255, 0) 100%);
 
     &__title {
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 1.4;
-
-        text-align: center;
-        text-transform: capitalize;
-
         margin-bottom: 60px;
     }
     &__slider{
@@ -495,9 +490,6 @@ ul {
         }
     }
 
-    &__content {
-    }
-
     &__rating {
         margin-bottom: 35px;
         span {
@@ -526,9 +518,6 @@ ul {
     &__title {
         font-weight: bold;
         margin-bottom: 10px;
-    }
-
-    &__desc {
     }
 
     &__info {
@@ -561,13 +550,6 @@ ul {
     padding-bottom: 100px;
     
     &__title {
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 1.4;
-
-        text-align: center;
-        text-transform: capitalize;
-
         margin-bottom: 80px;
     }
 
@@ -706,10 +688,6 @@ ul {
         gap: 15px;
     }
 
-    &__btn {
-
-    }
-
     &__img {
         position: absolute;
         bottom: 0;
@@ -778,9 +756,6 @@ ul {
 
         padding: 38px 0;
     }
-
-    &__copy-text {
-    }
 }
 
 
@@ -790,16 +765,13 @@ ul {
 
 /* Slick Slider */
 
-.reviews__slider {
-    display: flex;
-}
 .reviews__arrow {
     cursor: pointer;
     margin: 0 50px;
 }
 
 .reviews__slider {
-    position: flex;
+    display: flex;
     align-items: center;
 }
 
