@@ -695,8 +695,8 @@ ul {
 }
 
 .reviews__slider {
-  -webkit-box-shadow: 0 20px 50px -50px #000;
-          box-shadow: 0 20px 50px -50px #000;
+  -webkit-box-shadow: 0 40px 50px -70px #000;
+          box-shadow: 0 40px 50px -70px #000;
 }
 
 .review {
